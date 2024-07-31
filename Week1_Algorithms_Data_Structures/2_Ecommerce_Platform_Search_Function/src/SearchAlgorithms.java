@@ -31,3 +31,26 @@ public class SearchAlgorithms {
         return null; // Not found
     }
 }
+
+/*Search Operation Scenarios
+Linear Search:
+
+Best Case: O(1) – the desired element is the first in the list.
+Average Case: O(n) – the desired element is somewhere in the middle of the list.
+Worst Case: O(n) – the desired element is the last in the list or not present at all.
+Binary Search:
+
+Best Case: O(1) – the desired element is at the midpoint of the array.
+Average Case: O(log n) – the desired element is somewhere in the array, requiring multiple splits.
+Worst Case: O(log n) – the desired element is found after multiple splits.
+
+Time Complexity Comparison
+Linear Search:
+
+Time Complexity: O(n)
+Characteristics: Works on unsorted arrays or lists. No additional preprocessing is required.
+Binary Search:
+
+Time Complexity: O(log n)
+Characteristics: Requires a sorted array. More efficient for larger datasets if the array is already sorted.
+*/

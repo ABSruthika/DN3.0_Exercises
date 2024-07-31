@@ -24,3 +24,18 @@ public class Main {
         System.out.println("Product 2 after deletion: " + inventoryManager.getProduct("002"));
     }
 }
+
+
+/*Time Complexity
+
+Add Product:
+Time Complexity: O(1) on average (due to HashMap insertion).
+Reason: HashMap insertions are generally constant time unless a rehash is required.
+Update Product:
+
+Time Complexity: O(1) on average.
+Reason: HashMap lookups and insertions are constant time on average.
+Delete Product:
+
+Time Complexity: O(1) on average.
+Reason: HashMap deletions are constant time on average.*/
